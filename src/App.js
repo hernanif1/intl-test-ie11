@@ -20,7 +20,7 @@ export default function App() {
 const Text = () => {
   const intl = useIntl();
   const tex = intl.formatMessage(messages.explanation, {
-    brandNameTitle: "Duxxie.nl",
+    brandNameTitle: "site.nl",
   });
 
   return <p>{tex}</p>;
