@@ -5,8 +5,7 @@ import messagesEn from "./lang/en.json";
 const messages = defineMessages({
   explanation: {
     id: "cookieConsentBanner.explanation",
-    defaultMessage:
-      "{brandNameTitle} uses cookies to make the website, the chat function and the ordering platform work optimally, to analyze the use of the website and to enable advertisements to fit your personal preferences. [Please read our cookie policy to find out more](/cookieverklaring).",
+    defaultMessage: "{brandNameTitle} uses cookies to make the website.",
   },
 });
 
@@ -14,7 +13,6 @@ export default function App() {
   return (
     <IntlProvider messages={messagesEn} locale="en-US" defaultLocale="en">
       <Text />
-      asf
     </IntlProvider>
   );
 }
